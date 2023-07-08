@@ -30,7 +30,7 @@ color: #333;
     justify-content: space-between
     align-items: center;
     padding-top: 30px;
-    
+
 }
 
 .nav {
@@ -41,7 +41,7 @@ color: #333;
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
-    color: #fff;
+    color: rgb(15, 1, 1);
     text-decoration: none;
     transition: color 0.2s linear;
 }
