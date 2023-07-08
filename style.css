@@ -56,15 +56,12 @@ body {
         display: flex;
         justify-content: space-around;
         width: 100%;
-        padding: 50px 30px 35px;
+        padding: 150px 30px 40px;
         border-bottom: 15px solid #d7d1c9;
     }
     .section-profile-logo {
         width: 200px;
-        height: 200px;
-
-        border-radius: 50%;
-        
-        
+        height: 200px;    
+               
       }
     
