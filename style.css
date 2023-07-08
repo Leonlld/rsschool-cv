@@ -49,7 +49,9 @@ color: #333;
 .nav__link: :hover{
     color: #fce38a; 
 }
-
+.main {
+    margin-bottom: auto;
+  }
 .section-profile {
     display: flex;
     justify-content: space-around;
