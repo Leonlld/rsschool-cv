@@ -34,7 +34,7 @@ body {
     }
     
     .nav {
-        background-color: #18f587;
+        background-color: #0d1310;
     }
     .nav__link {
         display: inline-block;
@@ -71,10 +71,4 @@ body {
         font-size: 16px;
         color: rgb(9, 54, 11);
         background-color: #74b6ec
-      }
-      .contacts1{
-        font-size: 16px;
-        color: rgb(9, 54, 11);
-        text-align: right;
-        padding: 110px;
       }
