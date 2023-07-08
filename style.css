@@ -41,9 +41,10 @@ body {
         display: inline-block;
         vertical-align: top;
         margin: 0 15px;
-        color: rgb(15, 1, 1);
+        color: rgb(243, 237, 237);
         text-decoration: none;
         transition: color 0.2s linear;
+        background-color: #66342b;
     }
     
     .nav__link: :hover{
