@@ -34,7 +34,8 @@ body {
     }
     
     .nav {
-        background-color: #0d1310;
+        background-color: #035e30;
+        font-size: 16px;
     }
     .nav__link {
         display: inline-block;
@@ -70,5 +71,5 @@ body {
       .contacts{
         font-size: 16px;
         color: rgb(9, 54, 11);
-        background-color: #74b6ec
+        
       }
