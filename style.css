@@ -34,8 +34,7 @@ body {
     }
     
     .nav {
-        font-size: 18px;
-        text-transform: uppercase;
+        background-color: #7de407;
     }
     .nav__link {
         display: inline-block;
@@ -48,7 +47,8 @@ body {
     }
     
     .nav__link: :hover{
-        color: #fce38a; 
+        color: #fce38a
+        font-size: 18px; 
     }
     .main {
         margin-bottom: auto;
@@ -70,4 +70,5 @@ body {
       .contacts{
         font-size: 16px;
         color: rgb(9, 54, 11);
+        background-color: #74b6ec
       }
