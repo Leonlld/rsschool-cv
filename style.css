@@ -108,7 +108,7 @@ height: 837px;
 background: #FFF;
 }
 
-    .sectionAbout{
+    .About{
         padding: 20px 0;
     }
 
@@ -169,7 +169,51 @@ margin: 20px auto 40px;
     margin: 40px auto 40px;
 }
 .About_img{
-    margin-left: 20px;
+    margin-left: 20px;   
+}
 
+.sectionFavorites{
+    padding: 20px 0;
+}
+
+.section_headerF{
+    width: 1440px;
+    height: 1439px;
+background: #FFF;}
+
+.F {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    margin-bottom: 0 px;
+
+}
+.spisok{
+   
+}
+.spisok1{
+    
     
 }
+.spisok2{
+    display: inline-block;
+    padding-right: 90px;
+    padding-left: 0px;
+    
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.spisok3{
+    padding-right: 20px;
+    padding-left: 0px; 
+}
+
