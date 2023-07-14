@@ -1,3 +1,7 @@
+.body{
+    font-family: 'FORUM', 'INTER';
+}
+
 .h11{
     color: #FFF;
 font-family: Forum;
@@ -6,7 +10,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 50px;
 letter-spacing: 0.6px;
-padding: 20px 325px 20px 20px;
+padding: 20px 220px 20px 20px;
 }
 
 *,
@@ -40,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
    
     display: inline-flex;
 align-items: center;
-padding: 0px 30px 20px 20px
+padding: 0px 30px 20px 20px;
 }
 
 .container{
@@ -113,8 +117,9 @@ background: #FFF;
 height: 837px;
 background: #FFF;
     }
-    .section_title{
-        color: #0C0C0E;
+
+.section_title{
+color: #0C0C0E;
 font-family: Forum;
 font-size: 40px;
 font-style: normal;
@@ -123,6 +128,7 @@ line-height: 40px;
 letter-spacing: 2px;
 text-transform: capitalize;
 text-align: center;
+;
     }
 
     .section_text{
@@ -131,6 +137,7 @@ text-align: center;
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
+        
     }
     .f123 {
         color: #000;
@@ -140,6 +147,17 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 40px;
-    }
 
+
+    }
+.section_title:after{
+content:"" ;
+display: block;
+width: 50px;
+height: 1px;
+flex-shrink: 0;
+background: #0C0C0E;
+margin: 20px auto 40px;
+
+}
     
