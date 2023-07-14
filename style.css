@@ -160,4 +160,9 @@ background: #0C0C0E;
 margin: 20px auto 40px;
 
 }
-    
+.section{
+    width: 450px;
+height: 560px;
+flex-shrink: 0;
+    background: url(assets/2.jpg) lightgray 50% / cover no-repeat;
+}
