@@ -219,7 +219,7 @@ line-height: normal;
 
 .f1{
     width: 550px;
-    height: 555px;
+    height: 550px;
     flex-shrink: 0;
     border: 1px solid #000;
 background: #FFF;
@@ -282,15 +282,28 @@ letter-spacing: 2px;
 text-transform: capitalize;
 width: 355px;
 margin-left: 20px;
-margin-bottom: 20px;
+margin-bottom: 0px;
 
 }
 
 .f101{
 
     float: right;
-    margin: 25px -230px 0px 0px;
+    margin: 55px -225px 0px 0px;
     padding: 0px 0px 0px 0px;
    
 }
-
+.btn{
+    width: 75px;
+height: 30px;
+flex-shrink: 0;
+margin: 10px 20px 0px 20px;
+color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+}
