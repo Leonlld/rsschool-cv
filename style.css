@@ -217,3 +217,80 @@ line-height: normal;
     padding-left: 0px; 
 }
 
+.f1{
+    width: 550px;
+    height: 555px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+background: #FFF;
+margin: 209px 0px 0px 20px;
+
+
+}
+
+.f12{
+    color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+margin: 15px 0px 0px 20px;
+}
+
+
+
+.f12:after{
+    
+    content:"" ;
+    display: block;
+    width: 60px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #BB945F;
+    margin-bottom: 20px;
+
+    
+}
+
+.f1235{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 266.667% */
+letter-spacing: 2px;
+text-transform: uppercase;
+width: 200px;
+height: 80px;
+margin-left: 20px;
+margin-top: 0px;    
+
+
+}
+.f1234{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 266.667% */
+letter-spacing: 2px;
+text-transform: capitalize;
+width: 355px;
+margin-left: 20px;
+margin-bottom: 20px;
+
+}
+
+.f101{
+
+    float: right;
+    margin: 25px -230px 0px 0px;
+    padding: 0px 0px 0px 0px;
+   
+}
+
