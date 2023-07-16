@@ -462,7 +462,7 @@ background: #FFF;
     align-items: flex-start;
     gap: 40px;
     width: 438px;
-    height: 520px;
+    
  }
  .pp{
     color: #BB945F;
@@ -476,21 +476,8 @@ text-transform: capitalize;
  }
 
  .ppp{
-    color: #000;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 40px; /* 200% */
-letter-spacing: 2px;
-text-transform: capitalize;
+   
  }
  .ppp1{
-    width: 100px;
-height: 1px;
-background: #BB945F;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 60px;
+    
  }
