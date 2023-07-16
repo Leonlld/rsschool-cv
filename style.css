@@ -226,6 +226,11 @@ background: #FFF;
 margin: 209px 0px 0px 20px;
 
 
+    
+    
+
+
+
 }
 
 .f12{
@@ -313,3 +318,38 @@ transition: background .1s linear, color .1s linear;
     background-color: rgb(126, 53, 53);
     color:#fff;
 }
+
+.container11{
+
+    width: 1440px;
+    height: 837px;
+        display: flex;
+        margin-bottom:20px;
+        
+}
+
+
+.f112{
+    width: 555px;
+    height: 585px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+background: #FFF;
+margin: 209px 0px 0px 250px;
+}
+
+
+.btn1{
+    width: 75px;
+height: 30px;
+flex-shrink: 0;
+margin: 50px 20px 0px 20px;
+color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+transition: background .1s linear, color .1s linear;}
