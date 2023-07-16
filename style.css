@@ -453,15 +453,17 @@ background: #FFF;
 background: #FFF; 
 }
 
-
+.allCoffee{
+    margin: 0 0 0 0;
+}
 
  .coffee{
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
-    width: 438px;
+    margin: 0 0 0 0;
+    
     
  }
  .pp{
@@ -473,10 +475,34 @@ font-weight: 400;
 line-height: 40px; /* 100% */
 letter-spacing: 2px;
 text-transform: capitalize;
+margin: 40px 0 0 0;
+
  }
 
  .ppp{
-   
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 40px 0 0 0;
+    
+ }
+ .ppp:after{
+           content:"" ;
+        display: flex;
+        width: 100px;
+        height: 1px;
+        background: #BB945F;
+        flex-shrink: 0;
+        margin:  -20px 0px 40px 60px;
+        
+    
+        
+    
  }
  .ppp1{
     
