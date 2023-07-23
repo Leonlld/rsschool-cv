@@ -199,9 +199,7 @@ background: #FFF;}
     margin-bottom: 40px;
 
 }
-.spisok{
-     
-}
+
 .spisok1{
     padding-left: 20px; 
     
@@ -497,15 +495,8 @@ margin: 40px 0 0px 20px;
         height: 1px;
         background: #BB945F;
         flex-shrink: 0;
-        margin:  -20px 0px 40px 250px;
-        
-    
-       
-    
- }
- .ppp1{
-    
- }
+        margin:  -20px 0px 40px 250px;    }
+ 
  .t1{
     margin:  -60px 0px 0px 450px;
  }
