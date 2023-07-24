@@ -743,14 +743,17 @@ margin:  0px 0px 41px 20px;
 
 .rt1{
     width: 560px;
-height: 272px;
+height: 280px;
 flex-shrink: 0;
 background: #BB945F;
 margin:  0px 0px 0px 20px;
 }
 
-.yyy{
-    Copy
+
+
+    
+
+#pin{
     color: #8E8E8E;
     font-family: Forum;
     font-size: 30px;
@@ -760,24 +763,55 @@ margin:  0px 0px 0px 20px;
     letter-spacing: 0.6px;
     padding: 5px 0px 0px 20px;
 }
-.irir{
+
+
+.ifns{
     width: 520px;
-height: 66px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #FFF;
-margin: 0px 0px 0px 20px;
+    height: 66px;
+    transition: background .5s linear, color .1s linear;
+    border-radius: 10px;
+    background: #FFF;
+    margin: 20px 0px 0px 10px;
 }
 
-.irir1{
+.ifns:hover{
+    background-color: rgb(126, 53, 53);
+    color:#fff;
+}
+
+.ifns1{
     width: 520px;
-height: 66px;
+    height: 66px;
+    transition: background .5s linear, color .1s linear;
+    border-radius: 10px;
+    background: #FFF;
+    margin: 0px 0px 0px 10px;
+}
+
+.ifns1:hover{
+    background-color: rgb(126, 53, 53);
+    color:#fff;
+}
+
+
+
+.btn8{width: 242px;
+height: 44px;
 flex-shrink: 0;
-border-radius: 10px;
-background: #FFF;
-margin: 0px 0px 0px 0px;
+margin: 25px 0px 0px 140px;
+color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+transition: background .3s linear, color .1s linear;
 }
-    
-.tt13{
-    
+
+.btn8:hover{
+    background-color: rgb(238, 176, 176);
+    color:#fff;
 }
+
