@@ -915,8 +915,8 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 133.333% */
-margin-top: 20px;
-margin-left: 20px;
+text-align: left;
+text-decoration: none;
 }
 
 .y4y{
@@ -1031,15 +1031,42 @@ margin: 5px 20px 0px 0px;
 
 .s1s02{
     color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 100% */
-    letter-spacing: 2px;
-    margin: 46px 0px 44px 20px;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 100% */
+letter-spacing: 2px;
+    margin: 44px 0px 0px 0px;
 }
 .s1s3{
     display: block;
+    margin: 44px 20px 0px 0px;
+}
+
+
+.s1s03{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 100% */
+letter-spacing: 2px;
+text-decoration: none;
+
+
+
+}
+
+
+
+
+.s2s1{
+    width: 229px;
+    height: 40px;
+    margin: 20px 0px 10px 20px;
+    
 }
