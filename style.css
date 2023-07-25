@@ -71,22 +71,35 @@ margin: 0 30px;
     color: #ff6f87;
 }
 
+
+.ic525{
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
+margin: 0px 31px 0px 30px;
+}
+
 .welcome-bg{
     display: flex;
 width: 600px;
 height: 220px;
-padding: 35px 40px;
+
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
 background: #0C0C0E;
+margin: 100px 0px 0px 0px;
+
 }
 .nav1{
     display: flex;
-    width: 520px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
     flex-direction: column;
-    justify-content: center;
+    margin: -40px 0px 0px -100px;
     flex-shrink: 0;
+    padding: 0px 0px 0px 0px;
     
 }
 
@@ -100,7 +113,7 @@ background: #0C0C0E;
     line-height: 50px;
     letter-spacing: 3px;
     text-transform: uppercase; 
-    
+   
 }
 .About{
     width: 1440px;
@@ -221,6 +234,17 @@ line-height: normal;
 .spisok3{
     padding-right: 20px;
     padding-left: 0px; 
+}
+
+.input{
+   accent-color: black;
+   width: 15px;
+   height: 15px;
+   margin: 0;
+
+}
+.input-wrapper{
+
 }
 
 .f1{
@@ -353,6 +377,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
 transition: background .1s linear, color .1s linear;}
+
 
 
 .f13{
