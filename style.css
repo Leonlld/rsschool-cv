@@ -221,30 +221,32 @@ background: #FFF;}
 }
 .spisok2{
     display: inline-block;
-    padding-right: 90px;
-    padding-left: 0px;
-    
+       
     color: #000;
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin: 25px 70px 0px 20px;
 }
 .spisok3{
     padding-right: 20px;
     padding-left: 0px; 
 }
 
-.input{
+.spicok5f{
    accent-color: black;
    width: 15px;
    height: 15px;
-   margin: 0;
+   margin: 0px 20px 0px 0px;
 
 }
-.input-wrapper{
-
+.spicok5f-wrapper{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 .f1{
