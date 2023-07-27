@@ -764,7 +764,16 @@ margin:  0px 0px 0px 20px;
 }
 
 
-
+#pik9{
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    padding: 5px 0px 0px 20px;
+}
     
 
 #pik8{
