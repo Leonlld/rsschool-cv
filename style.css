@@ -1098,4 +1098,71 @@ text-decoration: none;
     
 }
 
+@media (max-width: 768px) {
+    /* heder */
+.section_title{
+margin-left: -873px;
+}
 
+.f123{
+    margin-top: -10px;
+    width: 556px;
+    margin-left: -15px;
+}
+.About_img{
+width: 450px;
+height: 560px;
+margin-left: 40px;
+}
+.About_item1{
+   margin-left: 240px;
+}
+
+.spisok{
+    margin-left: 35px;
+}
+.spisok2{
+    margin-left: -40px;
+}
+
+.f1{margin-left: 5px;
+
+}
+.f101{
+    margin: 55px -190px 0px 0px;
+}
+
+.f1235{
+    margin-top: -15px;
+    margin-bottom: -20px;
+}
+
+
+.f13{
+    margin: 0px 0px 0px 5px;
+}
+
+.A123{
+    margin: 0px 0px 0px 0px;
+    width: 557px;
+    height: 225px;
+}
+
+.section_title1 {
+    margin-left: -835px;
+}
+.RR{
+    margin-left: -35px;
+}
+
+
+.container60 {
+    width: 584px;
+    height: 137px;
+}
+
+
+.container094 {
+   
+    width: 585px;
+}
