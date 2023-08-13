@@ -54,6 +54,7 @@ padding: 0px 30px 20px 20px;
     right: 15px;
     z-index: 1;
     width: 45px;
+    display: none;
 
 }
 
@@ -64,6 +65,8 @@ padding: 0px 30px 20px 20px;
     background-color: #FFF;
     position: absolute;
     margin: auto;
+    
+
 }
 .nav-toggle_item:before, .nav-toggle_item:after {
 content: "";
@@ -73,6 +76,11 @@ background-color: #FFF;
 position: absolute;
 left 0;
 z-index: 1;
+transition: all 0.3s ease-in;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    transition-property: all;
 }
 
 .nav-toggle_item:before{
@@ -83,6 +91,25 @@ z-index: 1;
     margin: 8px 0px 0px 0px;
 
 }
+
+.nav-toggle.active .nav-toggle_item {
+    background: none    ;
+    
+}
+
+.nav-toggle.active .nav-toggle_item::before {
+transform: rotate(45deg);
+transform-origin: left top;
+translate: 0px;
+margin: -14px -2px;
+}
+
+.nav-toggle.active .nav-toggle_item::after {
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+    translate: 0px;
+    margin: 15px -2px;
+    }
 
 .container{
     width: 1440px;
@@ -1173,8 +1200,10 @@ html {
     
 }
 
+
+
 @media (max-width: 768px) {
-    /* heder */
+    /* header */
 .section_title{
 margin-left: -675px;
 }
@@ -1208,7 +1237,35 @@ margin-left: 145px;
     height: 1395px;
 }
 
+.tp71{
+    display:none;
+    position: absolute;
+    margin: 360px 0px 0px 520px;
+    left: 0;
+    text-align: center;
+    background-color: #0C0C0E;
+    width: 250px;
+height: 280px;
 
+transition: all 0.3s ease-in;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+
+
+.nav__link{
+
+    display: block;
+}
+
+.nav-toggle{
+    
+    display: block;
+
+}
 
 
 .f1{margin-left: 100px;
@@ -1236,7 +1293,7 @@ margin-left: 145px;
     margin-top: 160px;
 }
 .btn{
-    margin-top: 5px;
+    margin-top: 45px;
 
 }
 
@@ -1269,7 +1326,7 @@ margin-left: 145px;
    
     width: 585px;
 }
-.tp71{display:none}
+
 
 .ic525{
     margin-right: 100px;
@@ -1371,4 +1428,4 @@ height: 250px;
  .section_header66 {
     width: 1414px;
     height: 980px;
-}
+}}
