@@ -48,6 +48,7 @@ padding: 0px 30px 20px 20px;
 
 }
 
+
 .nav-toggle{
     position: absolute;
     top: 41px;
@@ -95,6 +96,9 @@ transition: all 0.3s ease-in;
 .nav-toggle.active .nav-toggle_item {
     background: none    ;
     
+}
+.nav-toggle:focus {
+outline: 0;
 }
 
 .nav-toggle.active .nav-toggle_item::before {
@@ -1246,7 +1250,6 @@ margin-left: 145px;
     background-color: #0C0C0E;
     width: 250px;
 height: 280px;
-
 transition: all 0.3s ease-in;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
@@ -1254,7 +1257,10 @@ transition: all 0.3s ease-in;
     transition-property: all;
 }
 
-
+.tp71.active{
+   display: block;
+    
+}
 
 .nav__link{
 
